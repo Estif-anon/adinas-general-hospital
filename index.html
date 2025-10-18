@@ -72,6 +72,30 @@
         --card-bg:     #ffffff;
       }
 
+      /* thin non-sticky top strip for moto / address / phone (full width above the navbar) */
+      .top-strip {
+        background: #ffffff;
+        border-bottom: 1px solid rgba(0,0,0,0.06);
+        font-size: 0.95rem;
+      }
+      .top-strip .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        padding: 0.35rem 0;
+        color: #333;
+        width: 100vw;
+      }
+      @media (max-width: 576px) {
+        .top-strip .container {
+          flex-direction: column;
+          gap: 0.25rem;
+          text-align: center;
+          padding: 0.45rem 0;
+        }
+      }
+
       /* full-width navbar gradient (overrides sticky-top background) */
       .navbar.navbar-gradient {
         background: linear-gradient(90deg, var(--brand-green), var(--brand-blue)) !important;
@@ -429,6 +453,13 @@ body::before {
         </div>
       </div>
     </div> -->
+    <!-- non-sticky top strip: moto, address & phone -->
+    <div class="top-strip">
+      <div class="container">
+        <div class="fw-semibold">አዲናስ - የጤናዎ ዋስ</div>
+        <div class="text-muted">Bahir Dar, Ethiopia &nbsp;|&nbsp; +251-97-225-2525 &nbsp;|&nbsp; info@adinashospital.com</div>
+      </div>
+    </div>
     <!-- Sticky Navbar -->
     <nav class="navbar navbar-expand-lg sticky-top shadow-sm navbar-dark navbar-gradient">
       <div class="container">
@@ -925,8 +956,6 @@ body::before {
         </button>
       </div>
     </section>
-
-    
 
     <!-- News Section -->
     <section class="container my-5 fade-in">
