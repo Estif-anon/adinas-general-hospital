@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamby Teaching Hospital</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Add Google Fonts for clean typography -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/logo.jpg" alt="Hospital Logo" />
+                <span>Gamby Teaching Hospital</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="departments.html">Departments</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="doctors.html">Doctors</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">Patient Portal</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="lang-btn"><i class="fas fa-globe"></i></button>
+                <button class="menu-toggle" aria-label="Open Menu"><i class="fas fa-bars"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero / Banner Section -->
+        <section class="hero" id="hero">
+            <!-- Slideshow background -->
+            <div class="hero-slideshow">
+                <img src="images/slide_1.jpg" class="hero-slide active" alt="Hospital Slide 1">
+                <img src="images/slide_2.jpg" class="hero-slide" alt="Hospital Slide 2">
+                <img src="images/slide_3.jpg" class="hero-slide" alt="Hospital Slide 3">
+                <img src="images/slide_4.jpg" class="hero-slide" alt="Hospital Slide 4">
+            </div>
+            <div class="hero-content animate-fadein">
+                <h1>Welcome to Gamby Teaching Hospital</h1>
+                <p>Compassionate Care. Advanced Medicine. Close to Home.</p>
+                <a href="#contact" class="btn cta-btn">Book Appointment</a>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services-section reveal-on-scroll" id="services">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-procedures"></i>
+                    <h3>Inpatient Care</h3>
+                    <p>Comfortable rooms and 24/7 nursing for admitted patients.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-user-md"></i>
+                    <h3>Outpatient Services</h3>
+                    <p>Consultations, minor procedures, and follow-up care.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-ambulance"></i>
+                    <h3>Emergency</h3>
+                    <p>Rapid response and expert care for urgent medical needs.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-vials"></i>
+                    <h3>Diagnostics</h3>
+                    <p>Modern imaging and laboratory diagnostics for accurate results.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-flask"></i>
+                    <h3>Lab Services</h3>
+                    <p>Comprehensive laboratory testing with quick turnaround.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-heartbeat"></i>
+                    <h3>Specialty Clinics</h3>
+                    <p>Cardiology, Pediatrics, Surgery, and more specialty care.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Departments Section -->
+        <section class="departments-section reveal-on-scroll" id="departments">
+            <h2>Departments</h2>
+            <div class="departments-grid">
+                <a href="departments.html#surgery" class="department-card">
+                    <i class="fas fa-scalpel"></i>
+                    <h3>Surgery</h3>
+                </a>
+                <a href="departments.html#pediatrics" class="department-card">
+                    <i class="fas fa-baby"></i>
+                    <h3>Pediatrics</h3>
+                </a>
+                <a href="departments.html#internal-medicine" class="department-card">
+                    <i class="fas fa-stethoscope"></i>
+                    <h3>Internal Medicine</h3>
+                </a>
+                <a href="departments.html#radiology" class="department-card">
+                    <i class="fas fa-x-ray"></i>
+                    <h3>Radiology</h3>
+                </a>
+                <a href="departments.html#obgyn" class="department-card">
+                    <i class="fas fa-female"></i>
+                    <h3>Obstetrics & Gynecology</h3>
+                </a>
+                <a href="departments.html#orthopedics" class="department-card">
+                    <i class="fas fa-bone"></i>
+                    <h3>Orthopedics</h3>
+                </a>
+            </div>
+        </section>
+
+        <!-- Doctors / Staff Section -->
+        <section class="team-section reveal-on-scroll" id="doctors">
+            <h2>Meet Our Team</h2>
+            <div class="team-carousel">
+                <div class="team-card">
+                    <img src="images/doctor_1.jpg" alt="Dr. Ayele" />
+                    <h4>Dr. Ayele Mekonnen</h4>
+                    <p>Chief Surgeon</p>
+                </div>
+                <div class="team-card">
+                    <img src="images/doctor_2.jpg" alt="Dr. Hana" />
+                    <h4>Dr. Hana Tesfaye</h4>
+                    <p>Pediatrician</p>
+                </div>
+                <div class="team-card">
+                    <img src="images/doctor_3.jpg" alt="Dr. Samuel" />
+                    <h4>Dr. Samuel Getachew</h4>
+                    <p>Radiologist</p>
+                </div>
+                <div class="team-card">
+                    <img src="images/doctor_4.jpg" alt="Dr. Selam" />
+                    <h4>Dr. Selam Asfaw</h4>
+                    <p>Internal Medicine</p>
+                </div>
+                <div class="team-card">
+                    <img src="images/doctor_5.jpg" alt="Dr. Dawit" />
+                    <h4>Dr. Dawit Kebede</h4>
+                    <p>Orthopedic Surgeon</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Facilities / Gallery Section -->
+        <section class="gallery-section reveal-on-scroll" id="gallery">
+            <h2>Our Facilities</h2>
+            <div class="gallery-slider">
+                <div class="gallery-slide active"><img src="images/facility1.jpg" alt="Facility 1"></div>
+                <div class="gallery-slide"><img src="images/facility2.jpg" alt="Facility 2"></div>
+                <div class="gallery-slide"><img src="images/facility3.jpg" alt="Facility 3"></div>
+                <button class="gallery-prev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+                <button class="gallery-next" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+
+        <!-- News / Announcements Section -->
+        <section class="news-section reveal-on-scroll" id="news">
+            <h2>Latest News & Events</h2>
+            <div class="news-grid">
+                <div class="news-card">
+                    <h4>Free Health Camp - October 2025</h4>
+                    <p>Join our free health screening camp for the community. <a href="#">Read more</a></p>
+                </div>
+                <div class="news-card">
+                    <h4>New MRI Machine Installed</h4>
+                    <p>State-of-the-art MRI now available for advanced diagnostics. <a href="#">Read more</a></p>
+                </div>
+                <div class="news-card">
+                    <h4>COVID-19 Vaccination Drive</h4>
+                    <p>Get vaccinated at our hospital. Walk-ins welcome. <a href="#">Read more</a></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact / Footer Section -->
+        <section class="contact-section reveal-on-scroll" id="contact">
+            <h2>Contact Us</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+                <div class="form-message" id="formMessage"></div>
+            </form>
+            <div class="contact-info">
+                <p><i class="fas fa-map-marker-alt"></i> 123 Main St, Addis Ababa, Ethiopia</p>
+                <p><i class="fas fa-phone"></i> +251 11 123 4567</p>
+                <p><i class="fas fa-envelope"></i> info@gambyhospital.com</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="map-embed">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Site Credits</a>
+        </div>
+        <p>&copy; 2025 Gamby Teaching Hospital. All rights reserved.</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
